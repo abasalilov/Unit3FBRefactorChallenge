@@ -1,0 +1,36 @@
+
+<body>
+        <nav>
+            <ul>
+                <li class="name">
+                   FizzBuzz Refactor Aleksandr Basalilov
+                </li>
+        </nav>
+        <header>
+            <h1 class="header-title">Fizz Buzz Project</h1>
+<script type="text/javascript">
+
+var val = prompt("Please pick a number between 1-100");
+
+    if ((+val) === NaN || val % 1 != 0) {alert("Please try again, that is not a number");
+    } else {
+        for (var i = 1; i < +val; i++) {
+        if ((i%3 === 0) && (i%5 === 0)) {
+                console.log("fizzbuzz");
+        } else if (i%3 === 0) {
+            console.log("fizz");
+        } else if (i%5 === 0) {
+            console.log("buzz");
+        } else {console.log(i);}
+}
+}
+</script>
+        </header>
+        <main>
+      
+        </main>
+        <footer>
+            <p>(c) 2016 Aleks Basalilov</p>
+        </footer>
+    </body>
+</html>
